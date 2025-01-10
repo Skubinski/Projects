@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резервация | The Ritz Carlton</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="CSS_FORM/form.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- Header Section -->
+        <header class="header-container">
+            <div class="header-content">
+                <h1 class="hotel-name">The Ritz Carlton Park & Spa</h1>
+                <span class="rating" style="color:#ffd700;">★★★★★</span>
+                <span class="contact">087 744 4444</span>
+                <span class="location">Sveti Vlas</span>
+            </div>
+        </header>
+
+        <!-- Navigation Bar with Logo -->
+        <nav class="nav-container">
+            <!-- Logo Section -->
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Logo" class="logo">
+                <span class="logo-text">Park & Spa ★★★★★</span>
+            </div>
+
+            <div class="burger-menu" id="burgerMenu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            
+            <!-- Navigation Links -->
+            <ul class="links">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="rooms.html">Настаняване</a></li>
+                <li><a href="spa.html">Спа център</a></li>
+                <li class="current-page"><a href="restaurants.html">Ресторанти</a></li>
+                <li><a href="prices.html">Цени</a></li>
+                <li><a href="gallery.html">Галерия</a></li>
+                <li><a href="#footer">Контакти</a></li>
+            </ul>
+
+            <!-- Button -->
+            <div class="nav-button">
+                <a href="form.html"><button class="btn">Резервирай</button></a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content-container">
+
+            <section class="form">
+                <div class="background">
+                    <div class="reserve-form">
+                        <h1>РЕЗЕРВАЦИЯ</h1>
+                        <form action="http://localhost:5225/Reservation/Create" method="post" onsubmit="return validateForm(event)">
+                            <label for="name">Име: </label><br>
+                            <input type="text" id="name" name="name" placeholder="Въведете вашето име..."
+                                required><br><br>
+
+                            <label for="second-name">Презиме: </label><br>
+                            <input type="text" id="second-name" name="second-name"
+                                placeholder="Въведете вашето презиме..." required><br><br>
+
+                            <label for="surname">Фамилия: </label><br>
+                            <input type="text" id="surname" name="surname" placeholder="Въведете вашата фамилия..."
+                                required><br><br>
+
+                            <label for="phone">Телефонен номер: </label><br>
+                            <input type="tel" id="phone" name="phone" placeholder="Въведете вашият тел. номер..."
+                                required><br><br>
+
+                            <label for="mail">E-mail: </label><br>
+                            <input type="email" id="mail" name="mail" placeholder="Въведете вашият и-мейл..."
+                                required><br><br>
+
+                            <label for="arriving">Пристигане:</label>
+                            <input type="date" id="arriving" name="arriving"
+                                required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <label for="leaving">Напускане:</label>
+                            <input type="date" id="leaving" name="leaving" required><br><br>
+
+                            <label for="room">Изберете стая:</label>
+                            <select id="room" name="room" required onchange="updateOptions()">
+                                <option value="1">--Изберете стая--</option>
+                                <option value="2" data-price="140">Double Economy</option>
+                                <option value="3" data-price="190">Double Deluxe</option>
+                                <option value="4" data-price="180">Triple Economy</option>
+                                <option value="5" data-price="230">Triple Deluxe</option>
+                                <option value="6" data-price="400">Apartment</option>
+                                <option value="7" data-price="600">Studio</option>
+                            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <label for="adults">Възрастни:</label>
+                            <select id="adults" name="adults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <label for="children">Деца:</label>
+                            <select id="children" name="children">
+                                <option value="1">0</option>
+                                <option value="2">1</option>
+                                <option value="3">2</option>
+                                <option value="4">3</option>
+                                <option value="5">4</option>
+                                <option value="6">5</option>
+                            </select><br><br>
+
+                            <label for="message">Бележка:</label><br>
+                            <textarea id="message" name="message"
+                                placeholder="Бележка..."></textarea><br><br>
+
+
+                            <button type="submit" id="submit-button">Резервирай</button>
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer" id="footer">
+            <div class="footer-content">
+                <!-- Logo and Verification -->
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                </div>
+
+                <!-- Policies -->
+                <div class="footer-policies">
+                    <h4>ПОЛИТИКИ</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Политика за лични данни</a></li>
+                        <li><a href="accomodation-policy.html">Политика за настаняване</a></li>
+                        <li><a href="biscuits-policy.html">Политика за бисквитки</a></li>
+                        <li><a href="general-conditions.html">Общи условия</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="footer-contacts">
+                    <h4>КОНТАКТИ</h4>
+                    <p><a href="tel:+359895444444">089 544 4444</a></p>
+                    <p><a href="tel:+359877444444">087 744 4444</a></p>
+                    <p><a href="mailto:marketing@hotelritzcarlton.bg">marketing@hotelritzcarlton.bg</a></p>
+                    <p>Адрес: ул. „Крайморска“ 1,<br>8240 Свети Влас</p>
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-social">
+                    <h4>ПОСЛЕДВАЙТЕ НИ</h4>
+                    <a href="https://www.facebook.com" class="social-icon"><img src="images/facebook.png"
+                            alt="Facebook"></a>
+                    <a href="https://www.instagram.com" class="social-icon"><img src="images/instagram.jpeg"
+                            alt="Instagram"></a>
+                </div>
+            </div>
+            <br>
+
+            <!-- Footer Bottom Line -->
+            <div class="footer-bottom">
+                <hr>
+                <p>&copy;All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+
+</html>

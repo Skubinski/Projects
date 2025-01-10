@@ -1,0 +1,1295 @@
+.links .current-page a {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+.page-title {
+    color: #a83232;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+}
+
+
+/* Header Container */
+.header-container {
+    background: linear-gradient(to right, #a83232, #7d2020);
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    font-family: 'Georgia', serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #ffd700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-container .rating,
+.header-container .contact,
+.header-container .location {
+    font-size: 1.2rem;
+    margin: 5px 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+/* Navigation Bar */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: #fff;
+    border-bottom: 3px solid #ffd700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #ffd700;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #a83232;
+    font-family: 'Georgia', serif;
+}
+
+/* Navigation Links */
+.links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #a83232;
+    font-size: 1.1rem;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.links li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 50%;
+    background-color: #ffd700;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.links li a:hover {
+    color: #ffd700;
+    transform: scale(1.05);
+}
+
+.links li a:hover::after {
+    width: 100%;
+}
+
+/* Navigation Button */
+.nav-button .btn {
+    background: #a83232;
+    color: #fff;
+    border: 2px solid #ffd700;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-button .btn:hover {
+    background: #ffd700;
+    color: #7d2020;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.page-title {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../images/footer.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: 40% 50%;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.page-title h1 {
+    color: white;
+    padding-top: 170px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Double-economy Section */
+
+.double-economy-room {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 100px auto 150px auto;
+    flex-wrap: wrap;
+}
+
+.double-economy-description {
+    text-align: justify;
+    width: 500px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.double-economy-description p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.economy-photo img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 1s;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.economy-img:hover {
+    transform: scale(1.1);
+}
+
+/* Double-deluxe Section */
+
+.double-deluxe {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 100px auto 150px auto;
+    flex-wrap: wrap;
+}
+
+.double-deluxe-description {
+    text-align: justify;
+    width: 500px;
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.double-deluxe-description p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.double-deluxe-image img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 1s;
+}
+
+.double-deluxe-img:hover {
+    transform: scale(1.1);
+}
+
+/* Triple-economy Section */
+.triple-economy-room {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 100px auto 150px auto;
+    flex-wrap: wrap;
+}
+
+.triple-economy-description {
+    text-align: justify;
+    width: 500px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.triple-economy-description p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.triple-economy-photo img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 1s;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.triple-economy-img:hover {
+    transform: scale(1.1);
+}
+
+/* Triple-deluxe Section */
+.triple-deluxe {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 100px auto 150px auto;
+    flex-wrap: wrap;
+}
+
+.triple-deluxe-description {
+    text-align: justify;
+    width: 500px;
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.triple-deluxe-description p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.triple-deluxe-image img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 1s;
+}
+
+.triple-deluxe-img:hover {
+    transform: scale(1.1);
+}
+
+/* Apartment Section */
+.apartment {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 100px auto 150px auto;
+    flex-wrap: wrap;
+}
+
+.apartment-description {
+    text-align: justify;
+    width: 500px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.apartment-description p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.apartment-photo img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 1s;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.apartment-img:hover {
+    transform: scale(1.1);
+}
+
+/* Studio Section */
+.studio {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 100px auto 150px auto;
+    flex-wrap: wrap;
+}
+
+.studio-description {
+    text-align: justify;
+    width: 500px;
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.studio-description p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.studio-image img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 1s;
+}
+
+.studio-img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Footer Container */
+.footer-container {
+    background-color: #8c6565;
+    /* Richer background color */
+    color: white;
+    /* Footer text color */
+    padding: 30px 20px;
+    /* Adjust padding for better spacing */
+    display: flex;
+    justify-content: space-between;
+    /* Space between sections */
+    align-items: flex-start;
+    /* Align items to the top */
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+    gap: 20px;
+    /* Space between sections */
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+}
+
+
+.footer {
+    background-color: #4e5970;
+    /* Dark Blue */
+    color: #fff;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* Responsive layout */
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer Logo Section */
+.footer-logo {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-logo .logo {
+    width: 150px;
+    /* Adjust logo size */
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+
+
+/* Policies Section */
+.footer-policies h4,
+.footer-contacts h4,
+.footer-social h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-policies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-policies li {
+    margin-bottom: 10px;
+    margin-right: 90px;
+}
+
+.footer-policies a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-policies a:hover {
+    color: #00aaff;
+    /* Light Blue Hover */
+}
+
+/* Contact Information */
+.footer-contacts p {
+    margin: 5px 0;
+}
+
+.footer-contacts a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media */
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 480px) {
+
+    /* General Body Width */
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header Styles */
+    .header-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .header-container h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin: 5px 0;
+    }
+
+    .header-container .rating,
+    .header-container .contact,
+    .header-container .location {
+        font-size: 0.9rem;
+        display: block;
+        margin: 5px auto;
+    }
+
+    /* Navigation Container */
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+    }
+
+    .nav-button {
+        padding-left: 35px;
+    }
+
+    .page-title {
+        display: none;
+    }
+    .burger-menu {
+        display: flex !important;
+        cursor: pointer;
+        flex-direction: column;
+        gap: 5px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 1001;
+    }
+
+    .burger-menu .line {
+        width: 25px;
+        height: 3px;
+        background: #a83232;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .burger-menu.active .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .burger-menu.active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger-menu.active .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background: #f4f4f4;
+        padding: 15px;
+        border-radius: 10px;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 80%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .links.active {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .links li a {
+        font-size: 1rem;
+        text-align: center;
+        color: #a83232;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .double-economy-description,
+    .double-deluxe-description,
+    .triple-deluxe-description,
+    .triple-economy-description,
+    .apartment-description,
+    .studio-description {
+        padding: 0px;
+        margin: 0px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .double-deluxe-image img,
+    .economy-photo img,
+    .triple-deluxe-image img,
+    .triple-economy-photo img,
+    .apartment-photo img,
+    .studio-image img{
+        margin-left: 30px;
+        width:300px;
+        height: 200px;
+    }
+    
+
+    
+
+    /* Footer */
+    .footer {
+        height: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-policies {
+        text-align: center;
+    }
+
+    .footer-policies li {
+        text-align: center;
+        margin-left: 95px;
+    }
+
+    .footer-logo,
+    .footer-policies,
+    .footer-contacts,
+    .footer-social {
+        margin: 10px 0;
+    }
+
+    .footer-logo img {
+        width: 80px;
+        height: auto;
+    }
+
+    .footer-bottom {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* General Body Width */
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header Styles */
+    .header-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .header-container h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin: 5px 0;
+    }
+
+    .header-container .rating,
+    .header-container .contact,
+    .header-container .location {
+        font-size: 0.9rem;
+        display: block;
+        margin: 5px auto;
+    }
+
+    /* Navigation Container */
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+    }
+
+    
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background: #f4f4f4;
+        padding: 15px;
+        border-radius: 10px;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 80%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .links.active {
+        display: flex;
+    }
+
+    .nav-button {
+        padding-right: 50px;
+    }
+
+    .links li a {
+        font-size: 1rem;
+        text-align: center;
+        color: #a83232;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .page-title {
+        height: 380px;
+    }
+
+    .double-economy-description,
+    .double-deluxe-description,
+    .triple-deluxe-description,
+    .triple-economy-description,
+    .apartment-description,
+    .studio-description {
+        padding: 0px;
+        margin: 0px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 600px;
+        margin-left: 50px;
+    }
+
+    .double-deluxe-image img,
+    .economy-photo img,
+    .triple-deluxe-image img,
+    .triple-economy-photo img,
+    .apartment-photo img,
+    .studio-image img{
+        margin-left: 50px;
+        width:600px;
+        height: 500px;
+    }
+    
+
+    .footer {
+        height: 100%;
+    }
+}
+
+
+
+/* Large Screens (Desktops, below 1024px) */
+@media screen and (max-width: 1024px) {
+
+    /* General Body Width */
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header Styles */
+    .header-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .logo-text {
+        display: none !important;
+    }
+
+
+    .header-container h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin: 5px 0;
+    }
+
+    .header-container .rating,
+    .header-container .contact,
+    .header-container .location {
+        font-size: 0.9rem;
+        display: block;
+        margin: 5px auto;
+    }
+
+    /* Navigation Container */
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    /* Updated Links */
+    .links {
+        display: flex;
+        /* Change from none to flex */
+        flex-direction: row;
+        /* Align links horizontally */
+        gap: 10px;
+        /* Adjust gap as needed */
+        background: transparent;
+        /* Remove the background for burger menu */
+        padding: 0;
+        /* Reset padding */
+        border-radius: 0;
+        /* Remove border radius */
+        position: static;
+        /* Reset position to static */
+        width: auto;
+        /* Reset width */
+        box-shadow: none;
+        /* Remove shadow */
+        padding-left: 30px;
+    }
+
+    /* Links Styling */
+    .links li a {
+        font-size: 1rem;
+        text-align: center;
+        color: #a83232;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .nav-button {
+
+        width: 100px;
+    }
+
+    /* Remove or Hide Burger Trigger */
+    .burger-menu {
+        display: none;
+        /* Hide the burger menu icon or button */
+    }
+
+    #contacts {
+        display: none;
+    }
+
+    .double-economy-description,
+    .double-deluxe-description,
+    .triple-deluxe-description,
+    .triple-economy-description,
+    .apartment-description,
+    .studio-description {
+        padding: 0px;
+        margin: 0px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .double-deluxe-image img,
+    .economy-photo img,
+    .triple-deluxe-image img,
+    .triple-economy-photo img,
+    .apartment-photo img,
+    .studio-image img{
+        margin-left: 30px;
+        width:400px;
+        height: 300px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+}
+
+/* Large Screens (Desktops, up to 1280px) */
+@media screen and (max-width: 1280px) {
+    
+    /* General Body Width */
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header Styles */
+    .header-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .logo-text {
+        display: none !important;
+    }
+
+
+    .header-container h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin: 5px 0;
+    }
+
+    .header-container .rating,
+    .header-container .contact,
+    .header-container .location {
+        font-size: 0.9rem;
+        display: block;
+        margin: 5px auto;
+    }
+
+    /* Navigation Container */
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    /* Updated Links */
+    .links {
+        display: flex;
+        /* Change from none to flex */
+        flex-direction: row;
+        /* Align links horizontally */
+        gap: 10px;
+        /* Adjust gap as needed */
+        background: transparent;
+        /* Remove the background for burger menu */
+        padding: 0;
+        /* Reset padding */
+        border-radius: 0;
+        /* Remove border radius */
+        position: static;
+        /* Reset position to static */
+        width: auto;
+        /* Reset width */
+        box-shadow: none;
+        /* Remove shadow */
+        padding-left: 30px;
+    }
+
+    /* Links Styling */
+    .links li a {
+        font-size: 1rem;
+        text-align: center;
+        color: #a83232;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .nav-button {
+        width: 100px;
+        margin-left: 40px;
+    }
+
+    /* Remove or Hide Burger Trigger */
+    .burger-menu {
+        display: none;
+        /* Hide the burger menu icon or button */
+    }
+
+
+    .double-economy-description,
+    .double-deluxe-description,
+    .triple-deluxe-description,
+    .triple-economy-description,
+    .apartment-description,
+    .studio-description {
+        padding: 0px;
+        margin: 0px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 500px;
+        margin-left: 80px;
+    }
+
+    .double-deluxe-image img,
+    .economy-photo img,
+    .triple-deluxe-image img,
+    .triple-economy-photo img,
+    .apartment-photo img,
+    .studio-image img{
+        margin-left: 80px;
+        width:500px;
+        height: 350px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+}
+
+/* Large Screens (Desktops, below 1366px) */
+@media screen and (max-width: 1366px) {
+     /* General Body Width */
+     body {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header Styles */
+    .header-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .logo-text {
+        display: none !important;
+    }
+
+
+    .header-container h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin: 5px 0;
+    }
+
+    .header-container .rating,
+    .header-container .contact,
+    .header-container .location {
+        font-size: 0.9rem;
+        display: block;
+        margin: 5px auto;
+    }
+
+    /* Navigation Container */
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    /* Updated Links */
+    .links {
+        display: flex;
+        /* Change from none to flex */
+        flex-direction: row;
+        /* Align links horizontally */
+        gap: 40px;
+        /* Adjust gap as needed */
+        background: transparent;
+        /* Remove the background for burger menu */
+        padding: 0;
+        /* Reset padding */
+        border-radius: 0;
+        /* Remove border radius */
+        position: static;
+        /* Reset position to static */
+        width: auto;
+        /* Reset width */
+        box-shadow: none;
+        /* Remove shadow */
+        padding-left: 30px;
+    }
+
+    /* Links Styling */
+    .links li a {
+        font-size: 1rem;
+        text-align: center;
+        color: #a83232;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .nav-button {
+        width: 100px;
+        margin-left: 40px;
+    }
+
+    /* Remove or Hide Burger Trigger */
+    .burger-menu {
+        display: none;
+        /* Hide the burger menu icon or button */
+    }
+
+
+    .double-economy-description,
+    .double-deluxe-description,
+    .triple-deluxe-description,
+    .triple-economy-description,
+    .apartment-description,
+    .studio-description {
+        padding: 0px;
+        margin: 0px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 550px;
+        margin-left: 90px;
+    }
+
+    .double-deluxe-image img,
+    .economy-photo img,
+    .triple-deluxe-image img,
+    .triple-economy-photo img,
+    .apartment-photo img,
+    .studio-image img{
+        margin-left: 90px;
+        width:600px;
+        height: 450px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 1921px) {
+     /* General Body Width */
+     body {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header Styles */
+    .header-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .logo-text {
+        display: none !important;
+    }
+
+
+    .header-container h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin: 5px 0;
+    }
+
+    .header-container .rating,
+    .header-container .contact,
+    .header-container .location {
+        font-size: 0.9rem;
+        display: block;
+        margin: 5px auto;
+    }
+
+    /* Navigation Container */
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    /* Updated Links */
+    .links {
+        display: flex;
+        /* Change from none to flex */
+        flex-direction: row;
+        /* Align links horizontally */
+        gap: 10px;
+        /* Adjust gap as needed */
+        background: transparent;
+        /* Remove the background for burger menu */
+        padding: 0;
+        /* Reset padding */
+        border-radius: 0;
+        /* Remove border radius */
+        position: static;
+        /* Reset position to static */
+        width: auto;
+        /* Reset width */
+        box-shadow: none;
+        /* Remove shadow */
+        padding-left: 30px;
+    }
+
+    /* Links Styling */
+    .links li a {
+        font-size: 1rem;
+        text-align: center;
+        color: #a83232;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .nav-button {
+        width: 100px;
+        margin-left: 40px;
+    }
+
+    /* Remove or Hide Burger Trigger */
+    .burger-menu {
+        display: none;
+        /* Hide the burger menu icon or button */
+    }
+
+
+    .double-economy-description,
+    .double-deluxe-description,
+    .triple-deluxe-description,
+    .triple-economy-description,
+    .apartment-description,
+    .studio-description {
+        padding: 0px;
+        margin: 0px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 700px;
+        margin-left: 130px;
+    }
+
+    .double-deluxe-image img,
+    .economy-photo img,
+    .triple-deluxe-image img,
+    .triple-economy-photo img,
+    .apartment-photo img,
+    .studio-image img{
+        margin-left: 130px;
+        width:700px;
+        height: 550px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+}
+

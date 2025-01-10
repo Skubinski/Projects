@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спа Център | The Ritz Carlton</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="CSS_FORM/styles-spa.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- Header Section -->
+        <header class="header-container">
+            <div class="header-content">
+                <h1 class="hotel-name">The Ritz Carlton Park & Spa</h1>
+                <span class="rating" style="color:#ffd700;">★★★★★</span>
+                <span class="contact">087 744 4444</span>
+                <span class="location">Sveti Vlas</span>
+            </div>
+        </header>
+
+        <!-- Navigation Bar with Logo -->
+        <nav class="nav-container">
+            <!-- Logo Section -->
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Logo" class="logo">
+                <span class="logo-text">Park & Spa ★★★★★</span>
+            </div>
+
+            <div class="burger-menu" id="burgerMenu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="links">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="rooms.html">Настаняване</a></li>
+                <li class="current-page"><a href="spa.html">Спа център</a></li>
+                <li><a href="restaurants.html">Ресторанти</a></li>
+                <li><a href="prices.html">Цени</a></li>
+                <li><a href="gallery.html">Галерия</a></li>
+                <li id="contacts"><a href="#footer">Контакти</a></li>
+            </ul>
+
+            <!-- Button -->
+            <div class="nav-button">
+                <a href="form.html"><button class="btn">Резервирай</button></a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content-container">
+            <div class="page-title">
+                <h1>Спа център</h1>
+            </div>
+
+            <section class="spa">
+                <div class="slider">
+                    <!-- Slide Images -->
+                    <div class="slides">
+                        <img src="images/sauna.jpg" alt="sauna" class="active">
+                        <img src="images/spa-pool.jpg" alt="pool">
+                        <img src="images/steam-room.jpeg" alt="steam-room">
+                        <img src="images/wellness.jpg" alt="wellness">
+                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+
+                    <!-- Indicators -->
+                    <div class="dots">
+                        <span class="dot active" onclick="currentSlide(0)"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+                <div class="description">
+                    <h2>СПА ЦЕНТЪР</h2>
+                    <p>
+                        Почувствайте силата на водата в SPA центъра на хотела. Ще поглезим сетивата Ви
+                        със закрити басейни за възрастни и деца, хидромасажни вани, финландска сауна,
+                        инфрачервена сауна, ароматна парна баня, солна зона за релакс и модерна фитнес зала.
+                        За да забравите стреса от ежедневието, за Вас сме подготвили разнообразие от масажи и терапии, а
+                        козметичните ни процедури с натурални български и френски козметики ще задоволят и
+                        най-изтънчените вкусове.
+                    </p>
+                </div>
+            </section>
+
+            <section class="water">
+
+                <div class="water-description">
+                    <h2>ЗА ВОДАТА</h2>
+                    <p>
+                        Създадохме атмосфера, която е едновременно успокояваща и освежаваща. Температурата на водата е
+                        идеално подбрана,
+                        за да ви предложи усещане за пълен релакс.
+                        Независимо дали търсите миг на уединение или време, прекарано с близки, тук ще откриете
+                        хармонията, която заслужавате.
+                    </p>
+                </div>
+
+                <div class="water-image">
+                    <img src="images/aquapark3.jpg" alt="water" class="water-img">
+                </div>
+
+            </section>
+
+
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer" id="footer">
+            <div class="footer-content">
+                <!-- Logo and Verification -->
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                </div>
+
+                <!-- Policies -->
+                <div class="footer-policies">
+                    <h4>ПОЛИТИКИ</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Политика за лични данни</a></li>
+                        <li><a href="accomodation-policy.html">Политика за настаняване</a></li>
+                        <li><a href="biscuits-policy.html">Политика за бисквитки</a></li>
+                        <li><a href="general-conditions.html">Общи условия</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="footer-contacts">
+                    <h4>КОНТАКТИ</h4>
+                    <p><a href="tel:+359895444444">089 544 4444</a></p>
+                    <p><a href="tel:+359877444444">087 744 4444</a></p>
+                    <p><a href="mailto:marketing@hotelritzcarlton.bg">marketing@hotelritzcarlton.bg</a></p>
+                    <p>Адрес: ул. „Крайморска“ 1,<br>8240 Свети Влас</p>
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-social">
+                    <h4>ПОСЛЕДВАЙТЕ НИ</h4>
+                    <a href="https://www.facebook.com" class="social-icon"><img src="images/facebook.png"
+                            alt="Facebook"></a>
+                    <a href="https://www.instagram.com" class="social-icon"><img src="images/instagram.jpeg"
+                            alt="Instagram"></a>
+                </div>
+            </div>
+            <br>
+
+            <!-- Footer Bottom Line -->
+            <div class="footer-bottom">
+                <hr>
+                <p>&copy;All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script-spa.js"></script>
+</body>
+
+</html>

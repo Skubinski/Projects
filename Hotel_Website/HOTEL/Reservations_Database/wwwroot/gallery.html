@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерия | The Ritz Carlton</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="CSS_FORM/gallery.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- Header Section -->
+        <header class="header-container">
+            <div class="header-content">
+                <h1 class="hotel-name">The Ritz Carlton Park & Spa</h1>
+                <span class="rating" style="color:#ffd700;">★★★★★</span>
+                <span class="contact">087 744 4444</span>
+                <span class="location">Sveti Vlas</span>
+            </div>
+        </header>
+
+        <!-- Navigation Bar with Logo -->
+        <nav class="nav-container">
+            <!-- Logo Section -->
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Logo" class="logo">
+                <span class="logo-text">Park & Spa ★★★★★</span>
+            </div>
+
+            <div class="burger-menu" id="burgerMenu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            
+            <!-- Navigation Links -->
+            <ul class="links">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="rooms.html">Настаняване</a></li>
+                <li><a href="spa.html">Спа център</a></li>
+                <li><a href="restaurants.html">Ресторанти</a></li>
+                <li><a href="prices.html">Цени</a></li>
+                <li class="current-page"><a href="gallery.html">Галерия</a></li>
+                <li><a href="#footer">Контакти</a></li>
+            </ul>
+
+            <!-- Button -->
+            <div class="nav-button">
+                <a href="form.html"><button class="btn">Резервирай</button></a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content-container">
+            <div class="page-title">
+                <h1>РАЗГЛЕДАЙТЕ ГАЛЕРИЯТА</h1>
+            </div>
+
+            <section class="gallery-section">
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="images/exterior2.jpg" alt="Gallery Image 1" onclick="openModal(0)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/reception.jpg" alt="Gallery Image 2" onclick="openModal(1)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/wellness.jpg" alt="Gallery Image 3" onclick="openModal(2)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/interior2.jpg" alt="Gallery Image 4" onclick="openModal(3)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/spa2.jpg" alt="Gallery Image 5" onclick="openModal(4)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/footer.jpg" alt="Gallery Image 6" onclick="openModal(5)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/economy2.jpg" alt="Gallery Image 7" onclick="openModal(6)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/lion.jpg" alt="Gallery Image 8" onclick="openModal(7)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/deluxe3.jpg" alt="Gallery Image 9" onclick="openModal(8)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/economy3.jpg" alt="Gallery Image 10" onclick="openModal(9)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/studio.jpg" alt="Gallery Image 11" onclick="openModal(10)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/apartment.jpg" alt="Gallery Image 12" onclick="openModal(11)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/spa1.jpg" alt="Gallery Image 13" onclick="openModal(12)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/spa1.1.jpg" alt="Gallery Image 14" onclick="openModal(13)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/spa-background.jpg" alt="Gallery Image 15" onclick="openModal(14)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/restaurant.jpg" alt="Gallery Image 16" onclick="openModal(15)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/restaurant-background.jpg" alt="Gallery Image 17" onclick="openModal(16)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/bar1.jpg" alt="Gallery Image 18" onclick="openModal(17)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/bar2.jpg" alt="Gallery Image 19" onclick="openModal(18)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/bar3.jpg" alt="Gallery Image 20" onclick="openModal(19)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/aquapark.jpg" alt="Gallery Image 21" onclick="openModal(20)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/aquapark2.jpg" alt="Gallery Image 22" onclick="openModal(21)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/aquapark3.jpg" alt="Gallery Image 23" onclick="openModal(22)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/sauna.jpg" alt="Gallery Image 24" onclick="openModal(23)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/spa-pool.jpg" alt="Gallery Image 25" onclick="openModal(24)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/steam-room.jpeg" alt="Gallery Image 26" onclick="openModal(25)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/beach-bar.jpg" alt="Gallery Image 27" onclick="openModal(26)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/exterior.jpeg" alt="Gallery Image 27" onclick="openModal(27)">
+                    </div>
+
+                    <!-- Modal -->
+                    <div id="imageModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="modalImage">
+                        <div class="modal-controls">
+                            <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                            <button class="next" onclick="changeImage(1)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer" id="footer">
+            <div class="footer-content">
+                <!-- Logo and Verification -->
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                </div>
+
+                <!-- Policies -->
+                <div class="footer-policies">
+                    <h4>ПОЛИТИКИ</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Политика за лични данни</a></li>
+                        <li><a href="accomodation-policy.html">Политика за настаняване</a></li>
+                        <li><a href="biscuits-policy.html">Политика за бисквитки</a></li>
+                        <li><a href="general-conditions.html">Общи условия</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="footer-contacts">
+                    <h4>КОНТАКТИ</h4>
+                    <p><a href="tel:+359895444444">089 544 4444</a></p>
+                    <p><a href="tel:+359877444444">087 744 4444</a></p>
+                    <p><a href="mailto:marketing@hotelritzcarlton.bg">marketing@hotelritzcarlton.bg</a></p>
+                    <p>Адрес: ул. „Крайморска“ 1,<br>8240 Свети Влас</p>
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-social">
+                    <h4>ПОСЛЕДВАЙТЕ НИ</h4>
+                    <a href="https://www.facebook.com" class="social-icon"><img src="images/facebook.png"
+                            alt="Facebook"></a>
+                    <a href="https://www.instagram.com" class="social-icon"><img src="images/instagram.jpeg"
+                            alt="Instagram"></a>
+                </div>
+            </div>
+            <br>
+
+            <!-- Footer Bottom Line -->
+            <div class="footer-bottom">
+                <hr>
+                <p>&copy;All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script-gallery.js"></script>
+</body>
+
+</html>

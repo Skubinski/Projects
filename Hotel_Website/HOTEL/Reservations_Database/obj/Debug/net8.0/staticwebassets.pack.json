@@ -1,0 +1,529 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/obj/Debug/net8.0/scopedcss/projectbundle/Reservations_Database.bundle.scp.css",
+      "PackagePath": "staticwebassets/Reservations_Database.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/accomodation-policy.css",
+      "PackagePath": "staticwebassets/CSS_FORM/accomodation-policy.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/biscuits-policy.css",
+      "PackagePath": "staticwebassets/CSS_FORM/biscuits-policy.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/form.css",
+      "PackagePath": "staticwebassets/CSS_FORM/form.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/gallery.css",
+      "PackagePath": "staticwebassets/CSS_FORM/gallery.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/general-conditions.css",
+      "PackagePath": "staticwebassets/CSS_FORM/general-conditions.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/prices.css",
+      "PackagePath": "staticwebassets/CSS_FORM/prices.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/privacy-policy.css",
+      "PackagePath": "staticwebassets/CSS_FORM/privacy-policy.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/styles-restaurants.css",
+      "PackagePath": "staticwebassets/CSS_FORM/styles-restaurants.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/styles-room.css",
+      "PackagePath": "staticwebassets/CSS_FORM/styles-room.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/styles-spa.css",
+      "PackagePath": "staticwebassets/CSS_FORM/styles-spa.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/CSS_FORM/styles.css",
+      "PackagePath": "staticwebassets/CSS_FORM/styles.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/accomodation-policy.html",
+      "PackagePath": "staticwebassets/accomodation-policy.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/biscuits-policy.html",
+      "PackagePath": "staticwebassets/biscuits-policy.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/form.html",
+      "PackagePath": "staticwebassets/form.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/gallery.html",
+      "PackagePath": "staticwebassets/gallery.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/general-conditions.html",
+      "PackagePath": "staticwebassets/general-conditions.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/apartment.jpg",
+      "PackagePath": "staticwebassets/images/apartment.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/aquapark.jpg",
+      "PackagePath": "staticwebassets/images/aquapark.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/aquapark2.jpg",
+      "PackagePath": "staticwebassets/images/aquapark2.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/aquapark3.jpg",
+      "PackagePath": "staticwebassets/images/aquapark3.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/bar1.jpg",
+      "PackagePath": "staticwebassets/images/bar1.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/bar2.jpg",
+      "PackagePath": "staticwebassets/images/bar2.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/bar3.jpg",
+      "PackagePath": "staticwebassets/images/bar3.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/beach-bar.jpg",
+      "PackagePath": "staticwebassets/images/beach-bar.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/deluxe2.jpg",
+      "PackagePath": "staticwebassets/images/deluxe2.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/deluxe3.jpg",
+      "PackagePath": "staticwebassets/images/deluxe3.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/economy2.jpg",
+      "PackagePath": "staticwebassets/images/economy2.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/economy3.jpg",
+      "PackagePath": "staticwebassets/images/economy3.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/exterior.jpeg",
+      "PackagePath": "staticwebassets/images/exterior.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/exterior2.jpg",
+      "PackagePath": "staticwebassets/images/exterior2.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/facebook.png",
+      "PackagePath": "staticwebassets/images/facebook.png"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/favicon.ico",
+      "PackagePath": "staticwebassets/images/favicon.ico"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/footer.jpg",
+      "PackagePath": "staticwebassets/images/footer.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/hotel.jpeg",
+      "PackagePath": "staticwebassets/images/hotel.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/houses.jpeg",
+      "PackagePath": "staticwebassets/images/houses.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/instagram.jpeg",
+      "PackagePath": "staticwebassets/images/instagram.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/instagram2.jpeg",
+      "PackagePath": "staticwebassets/images/instagram2.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/interior.jpeg",
+      "PackagePath": "staticwebassets/images/interior.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/interior1.avif",
+      "PackagePath": "staticwebassets/images/interior1.avif"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/interior2.jpg",
+      "PackagePath": "staticwebassets/images/interior2.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/lion.jpg",
+      "PackagePath": "staticwebassets/images/lion.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/reception.jpg",
+      "PackagePath": "staticwebassets/images/reception.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/restaurant-background.jpg",
+      "PackagePath": "staticwebassets/images/restaurant-background.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/restaurant.jpg",
+      "PackagePath": "staticwebassets/images/restaurant.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/sauna.jpg",
+      "PackagePath": "staticwebassets/images/sauna.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/sky.jpeg",
+      "PackagePath": "staticwebassets/images/sky.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/spa-background.jpg",
+      "PackagePath": "staticwebassets/images/spa-background.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/spa-pool.jpg",
+      "PackagePath": "staticwebassets/images/spa-pool.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/spa.jpeg",
+      "PackagePath": "staticwebassets/images/spa.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/spa1.1.jpg",
+      "PackagePath": "staticwebassets/images/spa1.1.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/spa1.jpg",
+      "PackagePath": "staticwebassets/images/spa1.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/spa2.jpg",
+      "PackagePath": "staticwebassets/images/spa2.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/steam-room.jpeg",
+      "PackagePath": "staticwebassets/images/steam-room.jpeg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/studio.jpg",
+      "PackagePath": "staticwebassets/images/studio.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/images/wellness.jpg",
+      "PackagePath": "staticwebassets/images/wellness.jpg"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/js/form.js",
+      "PackagePath": "staticwebassets/js/form.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/js/other.js",
+      "PackagePath": "staticwebassets/js/other.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/js/script-gallery.js",
+      "PackagePath": "staticwebassets/js/script-gallery.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/js/script-restaurants.js",
+      "PackagePath": "staticwebassets/js/script-restaurants.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/js/script-rooms.js",
+      "PackagePath": "staticwebassets/js/script-rooms.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/js/script-spa.js",
+      "PackagePath": "staticwebassets/js/script-spa.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/js/script.js",
+      "PackagePath": "staticwebassets/js/script.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/prices.html",
+      "PackagePath": "staticwebassets/prices.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/privacy-policy.html",
+      "PackagePath": "staticwebassets/privacy-policy.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/restaurants.html",
+      "PackagePath": "staticwebassets/restaurants.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/rooms.html",
+      "PackagePath": "staticwebassets/rooms.html"
+    },
+    {
+      "Id": "/Users/sergeykubinski/Desktop/Course_Work_Web_Development/Reservations_Database/wwwroot/spa.html",
+      "PackagePath": "staticwebassets/spa.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Reservations_Database.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Reservations_Database.props",
+      "PackagePath": "build\\Reservations_Database.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Reservations_Database.props",
+      "PackagePath": "buildMultiTargeting\\Reservations_Database.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Reservations_Database.props",
+      "PackagePath": "buildTransitive\\Reservations_Database.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
