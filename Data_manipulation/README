@@ -1,0 +1,2 @@
+The project uses Python to access a database, transfer it to a new PostgreSQL database,
+and extract the most important information from it with specific queries, directly in the Python code.
