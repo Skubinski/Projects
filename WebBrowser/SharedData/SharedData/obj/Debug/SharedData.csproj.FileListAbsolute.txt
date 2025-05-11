@@ -1,0 +1,6 @@
+C:\Users\Sergey\Desktop\WebBrowser\SharedData\SharedData\bin\Debug\SharedData.dll
+C:\Users\Sergey\Desktop\WebBrowser\SharedData\SharedData\bin\Debug\SharedData.pdb
+C:\Users\Sergey\Desktop\WebBrowser\SharedData\SharedData\obj\Debug\SharedData.csproj.AssemblyReference.cache
+C:\Users\Sergey\Desktop\WebBrowser\SharedData\SharedData\obj\Debug\SharedData.csproj.CoreCompileInputs.cache
+C:\Users\Sergey\Desktop\WebBrowser\SharedData\SharedData\obj\Debug\SharedData.dll
+C:\Users\Sergey\Desktop\WebBrowser\SharedData\SharedData\obj\Debug\SharedData.pdb
